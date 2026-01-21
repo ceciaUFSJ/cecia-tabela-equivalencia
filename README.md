@@ -1,0 +1,1 @@
+# cecia-tabela-equivalencia
