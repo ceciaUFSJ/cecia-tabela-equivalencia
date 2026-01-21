@@ -339,8 +339,13 @@ async function carregarEquivalencias(){
     box.className = "folder";
 
     const h = document.createElement("div");
-    h.className = "folder-header";
-    h.textContent = "📁 " + p.name;
+h.className = "folder-header";
+h.textContent = "📁 " + p.name;
+
+h.addEventListener("click", () => {
+  box.classList.toggle("open");
+});
+
 
     const cont = document.createElement("div");
     cont.className = "folder-content";
